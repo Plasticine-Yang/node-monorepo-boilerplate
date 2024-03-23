@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "turbo dev --filter=./packages/*",
     "build": "turbo build --filter=./packages/*",
+    "lint": "turbo lint --filter=./packages/*",
     "play": "turbo dev --filer=./apps/playground",
     "test": "vitest",
     "test:u": "vitest -u",
